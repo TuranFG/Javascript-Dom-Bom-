@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Image Radius</title>
+  <style>
+    img {
+      border-radius: 0;
+      opacity: 1;
+      transition: border-radius 0.5s;
+      width: 400px;
+      height: 400px;
+      margin: 15px;
+    }
+
+    input{
+      margin-left: 15px;
+      margin-bottom: 30px;
+    }
+  </style>
+</head>
+<body>
+  <label for="radiusInput"> Image Radius
+    <input type="range" id="radiusInput" min="0" max="50" value="0">
+  </label>
+
+  <label for="pacityInput"> Image Opacity
+    <input type="range" id="opacityInput" min="0" max="100" value="1">
+  </label>
+ 
+  
+  <br>
+  <img class="myImage" src="./0ef718404cf9b5391c0ad81ba8354b6f.jpg" alt="Image">
+  <img class="myImage" src="./0f3e8b3a661822e57094e15a65629aa4.jpg" alt="Image">
+  <img class="myImage" src="./8f21b7d66f0f44dd1f97a632541ba57c.jpg" alt="Image">
+  
+  <script src="./script.js"></script>
+</body>
+</html>
